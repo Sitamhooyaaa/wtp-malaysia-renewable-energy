@@ -1,0 +1,29 @@
+Dataset_column,Renamed_column,Description,Measurement
+state,state,State where survey conducted,"terengganu, pahang, kelantan"
+bid1,bidprice,The amount of the bid proposed,"RM1, RM2, RM4, RM6, RM8, RM10"
+know_kwttbb,know,Knowledge of Renewable Energy Fund,"Yes=1, No=0"
+wtp,wtp,Response on willingness to pay,"Yes=1, No=0"
+wtp1,wtp1,,
+wtp2,wtp2,,
+maxwtp1_y,maxwtp1_y,,
+maxwtp1_n,maxwtp1_n,,
+maxwtp2_y,maxwtp2_y,,
+maxwtp2_n,maxwtp2_n,,
+confident,confident,Level of confidence for WTP,"Confident=1, Not confident=0"
+gender,gender,Gender of the respondents,"Male=1, Female=0"
+age,age,Age of the respondents,Years
+race,race,Race,"Malay=1, Non-malay=0"
+Birth of Place,birthplace,Birth place,by region/hospital
+relationship,marital,Marital status,"Single=1, Married=0"
+edu,edu,education level,"high sch, stpm, primary sch, degree, postgrad, no edu"
+others - education,edu2,education level,additional edu
+Employment,work,Types of employments,"Government=1, Non-government=0"
+hh size,hhsize,Number of household members,
+no. of kids,kids,No. of kids,
+d101,hh_below12,12 years old and below,
+d102,hh_13to18,13 to 18 years old ,
+d103,hh_19to65,19 to 65 years old ,
+d104,hh_above65,65 years old and above ,
+income,income,Household income per month,Monthly basis
+electric bill (MYR),bill,Monthly electricity bill (RM),RM
+edu_yr,eduyear,Years of education,0-19 years
