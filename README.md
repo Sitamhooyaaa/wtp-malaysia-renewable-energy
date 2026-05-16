@@ -70,6 +70,16 @@ Model Training & Evaluation
 • Random Forest
 • XGBoost
         ↓
+Model Training & Evaluation
+- Logistic Regression (baseline)
+- Random Forest
+- XGBoost
+        ↓
+Model Optimization
+- Cross Validation (5-Fold) — true accuracy: 66.62%
+- Hyperparameter Tuning (GridSearchCV)
+- L1 Regularization — eliminated 15 irrelevant features
+        ↓
 Final Model Selection & Insights
 ```
 
@@ -93,15 +103,17 @@ Respondents with high electricity bills were not more likely to say YES — sugg
 
 ## 🤖 Model Results
 
-| Model | Accuracy | Precision (0) | Recall (0) | Precision (1) | Recall (1) |
-|-------|----------|--------------|------------|--------------|------------|
-| Logistic Regression | **74.83%** | 0.74 | 0.56 | 0.75 | 0.87 |
-| Random Forest | **74.83%** | 0.77 | 0.53 | 0.74 | 0.90 |
+| Logistic Regression (baseline) | 74.83% | 0.74 | 0.56 | 0.75 | 0.87 |
+| Random Forest | 74.83% | 0.77 | 0.53 | 0.74 | 0.90 |
 | XGBoost | 69.23% | 0.63 | 0.56 | 0.73 | 0.78 |
+| **Optimized Logistic Regression** | **77.62%** | 0.86 | 0.53 | 0.75 | 0.94 |
 
-### ✅ Final Model: Logistic Regression
-Selected for its equal accuracy to Random Forest with superior **explainability** — critical for policy-making contexts where decisions must be justified.
-
+### ✅ Final Model: Optimized Logistic Regression (77.62%)
+- Hyperparameter tuning via GridSearchCV improved accuracy by +2.79%
+- Best parameters: C=0.1, penalty=L1, solver=liblinear
+- L1 regularization automatically eliminated 15 irrelevant features
+- Selected for superior explainability — critical for policy-making contexts
+- Cross validation confirmed true accuracy: 66.62% (5-fold average)
 ---
 
 ## 🔑 Top Predictive Features
