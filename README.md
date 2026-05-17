@@ -85,10 +85,10 @@ Final Model Selection & Insights
 
 ---
 
-## 📈 EDA Key Findings
+## 📈 Key Findings
 
 ### 1. Confidence is Everything
-Respondents who were **confident** in their WTP decision were significantly more likely to say YES. This was the strongest pattern found in the entire dataset.
+No feature showed strong correlation with WTP during EDA. The model's best CV accuracy of 66.62% marginally exceeds the majority class baseline of 60%. The confidence variable contributed 8.84% of model performance, however its survey definition is unclear, limiting interpretability. This project highlights the limitations of small-sample stated preference surveys for predictive modeling.
 
 ### 2. Knowledge Helps But Isn't Enough
 Awareness of the Renewable Energy Fund showed weak positive correlation with WTP. Both informed and uninformed respondents showed similar YES/NO ratios — suggesting awareness campaigns alone are insufficient.
@@ -128,7 +128,7 @@ Respondents with high electricity bills were not more likely to say YES — sugg
 
 ---
 
-## 💡 Business Recommendations for TNB
+## 💡 Business Recommendations
 
 1. **Build public confidence first** — The biggest lever is trust in renewable energy programs, not just awareness. Communication strategies should emphasize reliability, transparency, and outcomes.
 
